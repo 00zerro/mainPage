@@ -40,10 +40,12 @@ body{
 
 .small-img{
     scale: 0.3;
+    transition: 200ms;
 }
 
 .bni-container{
     display: flex;
+    gap: 200px;
     color: rgb(220, 220, 220);
     align-items: center;
     font-size: 30px;
@@ -59,4 +61,14 @@ body{
     background-color: rgb(0,0,0, 30%);
     border-right: 5px rgb(220, 220, 220) dashed;
     border-left: 5px rgb(220, 220, 220) dashed;
+    gap: 100px;
+}
+
+.bni-container:hover .small-img{
+    scale: 0.4;
+    transition: 200ms;
+}
+
+a{
+    color: white;
 }
